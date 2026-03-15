@@ -18,7 +18,7 @@ Proyecto final del curso de **Desarrollo Web** en Coderhouse.
 - **SASS (SCSS)** — Preprocesador CSS con arquitectura modular
 - **Bootstrap 5.2.3** — Framework CSS para layout responsive y componentes
 - **Figma** — Diseño de la interfaz
-- - **AOS** — Animaciones al hacer scroll
+- **AOS** — Animaciones al hacer scroll
 
 ## Estructura del proyecto
 ```
