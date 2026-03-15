@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Cometario -->
+<head> <!-- no se ve - config -->
+    <meta charset="UTF-8"> <!-- podemos visualizar los caracteres especiales-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- genera compatibilidad con internet explorer y Edge-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adaptacion de pantallas -->
+   
+    <title>Fiduciaria Del Norte</title> <!-- titulo del navegador-->
+    <!-- link google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">  
+    <!--favicon-->
+    <link rel="shortcut icon" href="multimedia/Logotipo_FdNColor copia.png" type="image/x-icon">
+    <!-- Iconos de instragram -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">   
+    <!-- link de SCSS propio-->
+    <link rel="stylesheet" href="scss/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="description" content="Fiduciaria del Norte. Acompañamos a las PyMES acercando alternativas de financiamiento a medida de sus necesidades">
+    <meta name="keywords" content="Fiduciaria del Norte, Fiduciaria, Chaco, Finanza, PyMES, Sector público, Sector privado">
+
+</head>
+
+<body class="container-fluid"> <!-- todo lo visual del sitio-->
+
+    <div class="menu_general fondo_blanco position-fixed container-fluid">
+        <div class="encabezadoceleste"></div>
+        <!-- Documentacion: https://getbootstrap.com/docs/5.3/components/navbar/ -->
+        <nav class="navbar navbar-expand-xl bg-body-tertiary">
+            <div class="container-fluid fondo_blanco">
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="multimedia/FdN_ReduccionVerde.png" alt="Logo" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarEncabezadoAbreCierra" aria-controls="navbarEncabezadoAbreCierra" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarEncabezadoAbreCierra">
+                    <ul class="navbar_links navbar-nav ms-auto">
+                        <li class="nav-item link_animacion">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item link_animacion">
+                            <a class="nav-link" href="paginas/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item link_animacion">
+                            <a class="nav-link" href="paginas/productos_y_servicios.html">Productos y Servicios</a>
+                        </li>
+                        <li class="nav-item link_animacion">
+                            <a class="nav-link" href="paginas/concurso_publico.html">Concurso Público</a>
+                        </li>
+                        <li class="nav-item link_animacion">
+                            <a class="nav-link" href="paginas/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <main class="edificio_destacado row"> <!--contenido principal-->
+        <!-- nota principal -- imagen importante--> 
+        <div style="--d: 0s">
+            <p> Acompañamos a las PyMES 
+              <br/> acercando alternativas de 
+              <br> financiamiento a medida de 
+              <br/> sus necesidades
+            </p>
+            <p class="textochico"> ¡Tu PyME puede ser la próxima!</p>
+        </div>
+    </main>
+
+    <section class="section__quienessomos row" id="quienes_somos"> <!-- seccion del sitio -->
+        <div class="text2" data-aos="fade-up" data-aos-duration="2000" >
+            <h1>
+                <a href="paginas/nosotros.html"> Fiduciaria Del Norte S.A.  </a>
+            </h1>
+            <p>
+                Somos una empresa que brinda soluciones financieras integrales que contribuyen al desarrollo económico del sector público y privado de la región y el país.
+                Nos especializamos en diseñar herramientas financieras innovadoras. Contamos con un equipo interdisciplinario de profesionales con amplia y destacada trayectoria en el ámbito financiero, legal, impositivo, contable y de negocios.     
+            </p>
+        </div>
+    </section>
+
+    <section class="section__servyprod row" id="productos_y_servicios" >
+        <h2>
+            <a href="paginas/productos_y_servicios.html"> PRODUCTOS Y SERVICIOS  </a>
+        </h2>
+        <div class="publicoyprivado">
+            <img class="rounded" src="multimedia/Container.png" alt="sector publico" />
+            <img class="rounded" src="multimedia/Rectangle 4453.png" alt="sector privado" />
+        </div>
+    </section>
+    
+
+    <section class="section__concursopublico row" id="concurso_publico" >
+        <h2>
+            <a href="paginas/concurso_publico.html"> CONCURSO PÚBLICO  </a>
+        </h2>
+        <!-- Documentacion: https://getbootstrap.com/docs/5.0/utilities/flex/#justify-content -->
+        <div class="concursos">
+            <img class="rounded" src="multimedia/feature card.png" alt="concurso vidente" />
+            <img class="rounded" src="multimedia/feature card (1).png" alt="concurso en proceso" />
+            <img class="rounded" src="multimedia/feature card (2).png" alt="concurso culminados" />
+        </div>
+    </section>
+
+    <section class="section__preguntafrecuente row" id="preguntas_frecuentes">
+        <h2>
+            <a href="#preguntas_frecuentes"> PREGUNTA FRECUENTES  </a>
+        </h2>
+        <div class="preguntas">
+            <div class="accordion" id="accordionExample">
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUno" aria-expanded="true" aria-controls="collapseUno">
+                         ¿Cómo se dan a conocer los llamados de los Concursos Públicos?
+                    </button>
+                  </h3>
+                  <div id="collapseUno" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Los llamados a Concursos Públicos se divulgan mediante publicación en Diario Norte a la vez que se pone a disposición el Pliego de Condiciones Generales y Particulares de forma gratuita para su evaluación por parte de los oferentes en la página web de Fiduciaria del Norte S.A.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDos" aria-expanded="false" aria-controls="collapseDos" >
+                        ¿Tengo que ser proveedor del Estado para cotizar en un Concurso? 
+                    </button>
+                  </h3>
+                  <div id="collapseDos" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        No es un requisito ser proveedor del Estado para cotizar a Fiduciaria del Norte S.A. y sus fideicomisos administrados si se solicita el respectivo empadronamiento en la plataforma de proveedores.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTres" aria-expanded="false" aria-controls="collapseTres">
+                       ¿Puedo cotizar para todos los Concursos Públicos?  
+                    </button>
+                  </h3>
+                  <div id="collapseTres" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        El proveedor que desee cotizar en un Concurso Público puede cotizar siempre y cuando cumpla con la condición de estar inscripto impositivamente en la actividad acorde a su cotización.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCuatro" aria-expanded="false" aria-controls="collapseCuartro">
+                          ¿Cómo hago para formar parte de la base de datos de Fiduciaria del Norte S.A y de los fideicomisos que esta administra?  
+                        </button>
+                    </h3>
+                    <div id="collapseCuatro" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Todo proveedor que desee formar parte de la base de datos de Fiduciaria del Norte y los fideicomisos que administra, debe gestionar su empadronamiento en la plataforma a través del siguiente link: https://proveedores.fiduciariadelnorte.com.ar/
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCinco" aria-expanded="false" aria-controls="collapseCinco">
+                         ¿Cómo y dónde efectúo el pago por la compra del Pliego de Condiciones?  
+                        </button>
+                    </h3>
+                    <div id="collapseCinco" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            El pago por la compra de pliego se realiza únicamente mediante transferencia bancaria, a la CBU indicada en cada pliego en particular.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer row">
+        <div class="footerceleste2">
+            <div class="footer-contenido">
+                <img class="logoabajo" src="multimedia/Logotipo_FiduciariaBlanco copia.png" alt="logo abajo" />
+                <div class="footer-direcciones">
+                    <div class="footer-col">
+                        <h5>Resistencia</h5>
+                        <p>Frondizi 174 - Pisos 5°, 8° y 9°</p>
+                        <p>+54 362 443-5105</p>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Sáenz Peña</h5>
+                        <p>San Martín 1198</p>
+                    </div>
+                </div>
+            </div>
+            <ul class="redessociales">
+                <li><i class="fa-brands fa-instagram fa-xl"></i></li>
+                <li><i class="fa-brands fa-twitter fa-xl"></i></li>
+                <li><i class="fa-brands fa-facebook fa-xl"></i></li>
+                <li><i class="fa-brands fa-linkedin fa-xl"></i></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- <footer class="footer row"> 
+        <div class="footerceleste2">
+            <img class="logoabajo" src="multimedia/Logotipo_FiduciariaBlanco copia.png" alt="logo abajo" />
+            <ul class="redessociales">
+                <li><i class="fa-brands fa-instagram fa-xl"></i> </li>
+                <li><i class="fa-brands fa-twitter fa-xl"></i> </li>
+                <li><i class="fa-brands fa-facebook fa-xl"></i> </li>
+                <li><i class="fa-brands fa-linkedin fa-xl"></i></li>
+            </ul>
+        </div>
+    </footer> -->
+
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

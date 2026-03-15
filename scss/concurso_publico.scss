@@ -1,0 +1,38 @@
+
+@import "variables";
+@import "animaciones";
+
+
+.seccion_contacto {
+    padding: 100px 0 500px 0px;
+    .titulo  {
+        background-color: #00BBF0;
+        padding: 110px 0 150px 50px;
+        
+    }
+}
+.titulo h2 {
+    text-align: left;
+    color: white;
+    margin-left: 5%;
+}
+
+.concurso {
+    padding-top: 5%;
+    div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        img {
+            width: 350px;
+            padding: 5px 5px;
+        }
+    }
+}
+nav.paginador {
+    margin-top: 100px;
+    li {
+        margin: 0 2px;
+    }
+}

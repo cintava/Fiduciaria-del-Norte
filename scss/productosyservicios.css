@@ -1,0 +1,95 @@
+/* VARIABLES*/
+.navbar .navbar_links .link_animacion {
+  position: relative;
+}
+.navbar .navbar_links .link_animacion::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #00BBF0;
+  border-radius: 4px;
+  scale: 0 1;
+  transform-origin: right;
+  transition: scale 0.25s;
+}
+.navbar .navbar_links .link_animacion:hover::before {
+  scale: 1;
+  transform-origin: left;
+}
+
+.edificio_destacado p {
+  display: block;
+  opacity: 0;
+  animation: movimiento 0.8s forwards var(--d);
+}
+@keyframes movimiento {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.prodyserv img,
+.concurso img,
+.section__preguntafrecuente img,
+.autoridades img,
+.misionyvision img,
+.mapas img,
+.publicoyprivado img,
+.concursos img {
+  transition-duration: 500ms;
+}
+.prodyserv img:hover,
+.concurso img:hover,
+.section__preguntafrecuente img:hover,
+.autoridades img:hover,
+.misionyvision img:hover,
+.mapas img:hover,
+.publicoyprivado img:hover,
+.concursos img:hover {
+  transform: scale(1.02, 1.02);
+}
+
+.seccion_prodyserv {
+  padding: 100px 0 500px 0px;
+}
+.seccion_prodyserv .titulo {
+  background-color: #00BBF0;
+  padding: 110px 0 150px 50px;
+}
+
+.titulo h2 {
+  text-align: left;
+  color: white;
+  margin-left: 5%;
+}
+
+.textoprincipal {
+  text-align: left;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 3%;
+}
+.textoprincipal .oscuro {
+  font-weight: bold;
+}
+
+.prodyserv {
+  padding-top: 40px;
+}
+.prodyserv div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.prodyserv img {
+  width: 400px;
+  padding: 5px 5px;
+}/*# sourceMappingURL=productosyservicios.css.map */

@@ -1,0 +1,41 @@
+@import "variables";
+@import "animaciones";
+
+
+.seccion_prodyserv {
+    padding: 100px 0 500px 0px;
+    .titulo  {
+        background-color: #00BBF0;
+        padding: 110px 0 150px 50px;
+        
+    }
+}
+.titulo h2 {
+    text-align: left;
+    color: white;
+    margin-left: 5%;
+}
+
+.textoprincipal{
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 3%;
+    .oscuro {
+        font-weight: bold;
+    }
+}
+
+.prodyserv {
+    padding-top: 40px;
+    div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    img {
+        width: 400px;
+        padding: 5px 5px;
+    }
+}
