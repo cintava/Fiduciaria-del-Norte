@@ -3,7 +3,7 @@
 
 
 .seccion_prodyserv {
-    padding: 100px 0 500px 0px;
+    padding: 100px 0 320px 0px;
     .titulo  {
         background-color: #00BBF0;
         padding: 110px 0 150px 50px;
@@ -21,8 +21,12 @@
     padding-left: 15%;
     padding-right: 15%;
     margin-top: 3%;
-    .oscuro {
-        font-weight: bold;
+}
+
+.lista-desordenada {
+    li {
+        list-style: disc;
+        color: $colortitulos;
     }
 }
 
@@ -35,7 +39,20 @@
         justify-content: center;
     }
     img {
-        width: 400px;
+        width: 360px;
         padding: 5px 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .prodyserv {
+        img {
+            width: 320px;
+        }
+    }
+    .lista-desordenada {
+        li {
+            font-size: 1rem ;
+        }
     }
 }

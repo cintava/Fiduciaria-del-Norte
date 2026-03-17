@@ -10945,10 +10945,6 @@ body {
   padding-top: 130px; /* Para generar espacio entre el borde superior y la imagen */
 }
 
-.lista-desordenada li {
-  list-style: disc;
-}
-
 .menu_general {
   color: #6A6A6A;
   font-size: 18pt;
@@ -11136,7 +11132,7 @@ body {
   height: 120px;
 }
 .footerceleste2 .redessociales {
-  padding-left: 0;
+  padding-left: 16px;
 }
 .footerceleste2 .redessociales li {
   display: inline-block;
@@ -11263,7 +11259,7 @@ body {
     padding-bottom: 93px;
   }
   p {
-    font-size: 10pt;
+    font-size: 12pt;
   }
   h2, .h2, h1, .h1,
   h1 a,
@@ -11286,7 +11282,7 @@ body {
   .section__preguntafrecuente .preguntas .accordion {
     width: 95%;
   }
-  .section__servyprod img {
-    width: 265px;
+  .section__servyprod .publicoyprivado {
+    padding-top: 50px;
   }
 }/*# sourceMappingURL=styles.css.map */

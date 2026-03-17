@@ -57,7 +57,7 @@
 }
 
 .seccion_prodyserv {
-  padding: 100px 0 500px 0px;
+  padding: 100px 0 320px 0px;
 }
 .seccion_prodyserv .titulo {
   background-color: #00BBF0;
@@ -76,8 +76,10 @@
   padding-right: 15%;
   margin-top: 3%;
 }
-.textoprincipal .oscuro {
-  font-weight: bold;
+
+.lista-desordenada li {
+  list-style: disc;
+  color: #2B347C;
 }
 
 .prodyserv {
@@ -90,6 +92,15 @@
   justify-content: center;
 }
 .prodyserv img {
-  width: 400px;
+  width: 360px;
   padding: 5px 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .prodyserv img {
+    width: 320px;
+  }
+  .lista-desordenada li {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=productosyservicios.css.map */
