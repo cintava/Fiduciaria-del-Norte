@@ -57,11 +57,11 @@
 }
 
 .seccion_nosotros {
-  padding: 100px 0 500px 0px;
+  padding: 80px 0 320px 0px;
 }
 .seccion_nosotros .titulo {
   background-color: #00BBF0;
-  padding: 110px 0 150px 50px;
+  padding: 110px 0 130px 50px;
 }
 
 .titulo h2 {
@@ -78,6 +78,7 @@
 .textoprincipal .oscuro {
   font-weight: bold;
   margin-top: 5%;
+  color: #2B347C;
 }
 
 .misionyvision {
@@ -92,7 +93,7 @@
 }
 
 .autoridades {
-  padding-top: 10%;
+  padding-top: 6%;
 }
 .autoridades .personal {
   display: flex;
@@ -103,6 +104,4 @@
 .autoridades .personal img {
   width: 350px;
   padding: 20px 20px;
-}
-
-/*# sourceMappingURL=nosotros.css.map */
+}/*# sourceMappingURL=nosotros.css.map */

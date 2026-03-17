@@ -1,12 +1,11 @@
 @import "variables";
 @import "animaciones";
 
-
 .seccion_nosotros {
-    padding: 100px 0 500px 0px;
+    padding: 80px 0 320px 0px;
     .titulo  {
         background-color: #00BBF0;
-        padding: 110px 0 150px 50px;
+        padding: 110px 0 130px 50px;
         
     }
 }
@@ -14,10 +13,8 @@
     text-align: left;
     color: white;
     margin-left: 5%;
+    // margin: 47px 0px 0px 110px;
 }
-
-
-
 .textoprincipal{
     text-align: left;
     padding-left: 15%;
@@ -25,9 +22,9 @@
     .oscuro {
         font-weight: bold;
         margin-top: 5%;
+        color: $colortitulos;
     }
 }
-
 .misionyvision {
     display: flex;
     flex-direction: row;
@@ -38,9 +35,8 @@
         width: 400px;
     }
 }
-
 .autoridades {
-    padding-top: 10%;
+    padding-top: 6%;
    .personal {
         display: flex;
         flex-direction: row;
