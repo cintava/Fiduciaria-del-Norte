@@ -112,8 +112,8 @@ body{
 
 .section__quienessomos {
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 6%;
+    padding-bottom: 6%;
     background-color: $colorfondoprincipal;
     color: $colorsecundario;
     a {
@@ -127,8 +127,8 @@ body{
     }
 }
 .section__servyprod {
-        padding-bottom: 15%;
-        padding-top: 15%;
+        padding-bottom: 14%;
+        padding-top: 11%;
         .publicoyprivado {
             display: flex;
             flex-direction: row;
@@ -137,7 +137,7 @@ body{
             margin-top: 4%;
         }
         img {
-            width: 450px;
+            width: 400px;
         }
 }
 
@@ -163,8 +163,8 @@ body{
 }
 
 .section__preguntafrecuente {
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 12%;
+    padding-bottom: 5%;
     .preguntas { 
         padding-top: 4%;
         margin-bottom: 10%;
@@ -273,7 +273,7 @@ body{
         flex-wrap: wrap;
         align-items: center;
         img {
-            width: 400px;
+            width: 330px;
         }
     }
     .section__quienessomos p {
